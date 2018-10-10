@@ -1,0 +1,75 @@
+body {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  padding: 2%;
+  background-image: url("./images/kissDia.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(15, 15, 34);
+}
+
+* {
+  color:white;
+}
+
+
+menu {
+  display: inline;
+  padding: 5px;
+  background-color: rgb(15, 15, 34);
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  justify-content: center;
+}
+
+h2 {
+  transform: rotate(8deg);
+}
+
+#experience {
+  transform: rotate(-7deg)
+}
+
+#tech {
+  transform: rotate(-11deg);
+
+}
+
+#abilities {
+  transform: rotate(5deg);
+
+}
+
+.categoryTitle {
+  background-color: rgb(15, 15, 34);
+  opacity: 0.9;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+
+}
+
+.detailed {
+  display: none;
+}
+
+.categoryTitle:hover .detailed {
+  display: block;
+}
+
+/* img {
+  width: 20%;
+  height: auto;
+  position: fixed;
+  justify-content: right;
+
+} */
+
+.footline {
+  background-color: rgb(15, 15, 34);
+
+  position: 
+}
