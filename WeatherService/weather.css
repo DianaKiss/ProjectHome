@@ -1,3 +1,30 @@
 * {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
+
+.weatherTiles {
+  display: felx;
+  flex-flow: column;
+  width: 40%;
+}
+
+.tile {
+  display: flex;
+  flex-flow: row;
+  background-color: lightsalmon;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+.location {
+  display: flex;
+  flex-flow: column;
+}
+
+.location, .temperature, .terms {
+  padding: 5px;
+}
+
+.search {
+  justify-self: right;
+}
